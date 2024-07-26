@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+}
+
+.a-item {
+    align-items: center;
+}
+
+.j-con-center {
+    justify-content: center;
+}
+.d-column {
+    flex-direction: column;
+} 
+
+.c-purple {
+    background-color: #7161ef;
+}
+
+.c-orange {
+    background-color: #ff8500;
+}

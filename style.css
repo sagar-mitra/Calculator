@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');  
+    
+               
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgc: #1D293A;
+    --color-purple: #7161ef;
+    --color-orange: #ff8500;
+    --font:"Poppins", sans-serif;
+}
+
+
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bgc);
+    row-gap: 30px;
+}
+
+h1 {
+    font-family: var(--font);
+    font-size: 1.9rem;
+    color: #fff;
+}
+
+.calculator-body {
+    width: 290px;
+    height: 390px;
+    border-spacing: 5px 20px; /*By these we give the spacing between the table-data*/
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #495057;
+}
+
+ td {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: var(--font);
+}
+
+button:hover {
+    cursor: pointer;
+    width: 102%;
+    border: 1px solid black;
+}
+
+input {
+    width: 100%;
+    height: 65px;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: right;
+    box-shadow: none;
+    flex: 1;
+}
+

@@ -20,7 +20,7 @@ button.forEach(function (button) {
         display2.value = string;
       } else if(e.target.innerHTML == "DEL"){
         string = string.substring(0,(string.length-1));
-        display1.value = string;
+        display2.value = string;
       }
       
     else {
